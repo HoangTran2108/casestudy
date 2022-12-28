@@ -1,5 +1,8 @@
 #header {
     border-bottom: solid 1px #eee;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .header-title h3 {
     font-size: 16pt;

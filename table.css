@@ -8,6 +8,7 @@ button {
     width: 80%;
     float: right;
     background-color: powderblue;
+    margin-top: 150px;
 }
 #note {
     text-align: left;
@@ -24,14 +25,13 @@ button {
     border: 1px;
     width: 80%;
     border-spacing: 1px;
-    padding: 0;
     float: right;
+    margin-bottom: 80px;
 }
 #table2 {
     border: 1px;
     width: 80%;
     border-spacing: 1px;
-    padding: 0;
 }
 #name1 {
     text-align: left;
