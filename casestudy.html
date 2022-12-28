@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="table.css"/>
+  <link rel="stylesheet" href="head.css"/>
+  <link rel="stylesheet" href="footer.css"/>
+</head>
+<body>
+<form name="frmTop" id="frmTop" method="post">
+  <table id="table">
+    <div id="header">
+      <tr>
+        <td id="head1">
+          <div class="logo">
+            <img src="http://dangkyhoc.daotao.vnu.edu.vn/Images/logo.png" height="78" alt="logo vnu" />
+          </div>
+        </td>
+        <td id="head2">
+          <div class="header-title">
+            <h3>
+              CỔNG THÔNG TIN ĐÀO TẠO
+            </h3>
+            <h4>
+              DÀNH CHO <span>
+                SINH VIÊN
+            </span>
+            </h4>
+          </div>
+        </td>
+        <td id="head3">
+          <div class="header-right">
+            <div>
+              Xin chào bạn: <b>Trần Vũ Hoàng</b> [15001318]
+            </div>
+            <div>
+              <ul>
+                <li>
+                  Chọn học kỳ:
+                  <select name="cboTerm" style="background-color:#47a64d;padding:0px 5px;width:260px">
+
+                    <option value="221"  selected>
+                      Mã HK 221 - Học kỳ 1 năm 2022-2023
+                    </option>
+                    <option value="212" >
+                      Mã HK 212 - Học kỳ 2 năm 2021-2022
+                    </option>
+                    <option value="211" >
+                      Mã HK 211 - Học kỳ 1 năm 2021-2022
+                    </option>
+                    <option value="202" >
+                      Mã HK 202 - Học kỳ 2 năm 2020-2021
+                    </option>
+                    <option value="201" >
+                      Mã HK 201 - Học kỳ 1 năm 2020-2021
+                    </option>
+                    <option value="192" >
+                      Mã HK 192 - Học kỳ 2 năm 2019-2020
+                    </option>
+                    <option value="191" >
+                      Mã HK 191 - Học kỳ 1 năm 2019-2020
+                    </option>
+                    <option value="182" >
+                      Mã HK 182 - Học kỳ 2 năm 2018-2019
+                    </option>
+                    <option value="181" >
+                      Mã HK 181 - Học kỳ 1 năm 2018-2019
+                    </option>
+
+                  </select>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </div>
+  </table>
+
+</form>
+<table id="addinfor">
+  <tr>
+    <td id="note">
+      <p>Phương thức tính điểm:</p>
+      <p>- Trung bình môn được tính bằng:</p>
+      <p> + Kiểm tra: 20%</p>
+      <p> + Giữa kỳ: 20%</p>
+      <p> + cuối kỳ: 60%</p>
+      <p>- Trung bình chung = (Trung bình môn * Số tín chỉ)/(Tổng số tín chỉ tích lũy)</p>
+    </td>
+  </tr>
+  <tr>
+    <td id="input">
+      <label><input type="text" id="name" placeholder="Nhập tên môn"></label>
+      <label><input type="text" id="numcredits" placeholder="số tín chỉ"></label>
+      <label><input type="text" id="test" placeholder="Kiểm tra"></label>
+      <label><input type="text" id="midterm" placeholder="Giữa kỳ"></label>
+      <label><input type="text" id="endterm" placeholder="Cuối kỳ"></label>
+      <button onclick="add()">Thêm vào</button>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<table id="table1">
+  <tr bgcolor="#228b22">
+    <td rowspan=2><b>STT</b></td>
+    <td rowspan=2><b>Tên</b></td>
+    <td rowspan=2><b>Số tín chỉ</b></td>
+    <td colspan=4><b>Điểm</b></td>
+    <td rowspan=2><b></b></td>
+  </tr>
+  <tr bgcolor="#228b22">
+    <td><b>Kiểm tra</b></td>
+    <td><b>Giữa kỳ</b></td>
+    <td><b>Cuối kỳ</b></td>
+    <td><b>Trung bình môn</b></td>
+  </tr>
+  <tbody id="output"></tbody>
+  <tr><td colspan="8" id="output1"></td></tr>
+  <tr><td colspan="8" id="output2"></td></tr>
+  <tr><td colspan="8" id="output3"></td></tr>
+</table>
+<div id="footer">
+  <div id="footerLeft">
+    <span>Số người đang online </span>
+    <br />
+    <span class="numberOnline" id="numUserOnline">0 </span>
+    <br />
+
+  </div>
+  <div class="footerSep">
+  </div>
+  <div id="footerRight">
+    Công thông tin đào tạo ĐHQG Hà Nội - Phát triển bởi Trung tâm Ứng dụng CNTT @2011
+    -
+    2022
+    <br />
+    144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam
+    <br />
+    Webmaster: support@vnu.edu.vn
+    <br />
+  </div>
+</div>
+</body>
+<script src="point.js"></script>
+<script src="pointManager.js"></script>

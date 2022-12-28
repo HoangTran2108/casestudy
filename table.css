@@ -1,0 +1,51 @@
+td {
+    text-align: center;
+}
+button {
+    background-color: darkgray;
+}
+#addinfor {
+    width: 80%;
+    float: right;
+    background-color: powderblue;
+}
+#note {
+    text-align: left;
+}
+#input {
+    text-align: left;
+}
+#table {
+    width: 100%;
+    border-spacing: 15px;
+    background-color: #eefff4;
+}
+#table1 {
+    border: 1px;
+    width: 80%;
+    border-spacing: 1px;
+    padding: 0;
+    float: right;
+}
+#table2 {
+    border: 1px;
+    width: 80%;
+    border-spacing: 1px;
+    padding: 0;
+}
+#name1 {
+    text-align: left;
+    width: 25%;
+}
+#output1 {
+    text-align: left;
+    background-color: aquamarine;
+}
+#output2 {
+    text-align: left;
+    background-color: aquamarine;
+}
+#output3 {
+    text-align: left;
+    background-color: aquamarine;
+}
