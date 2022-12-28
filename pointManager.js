@@ -1,6 +1,6 @@
 let pointArr = [new Point("Giải tích", 2, 10, 8, 8, 8.4),
     new Point("Điện quang", 3, 7, 8, 6, 6.6),
-    new Point("Cơ sở văn hóa", 3, 10, 7, 8, 8.2)];
+    new Point("Cơ sở văn hóa Việt Nam", 3, 10, 7, 8, 8.2)];
 
 function showPoint() {
     let str = "";
@@ -27,15 +27,15 @@ function showPoint() {
     document.getElementById("output1").innerHTML = "Số tín chỉ tích lũy: " + Number(sumcredits) + "/124";
     document.getElementById("output2").innerHTML="Trung bình chung: " +avg.toFixed(2);
     if(avg>=9){
-        document.getElementById("output3").innerHTML = "Học lực: Xuất sắc"
+        document.getElementById("output3").innerHTML = "Xếp loại học lực: Xuất sắc"
     } else if(avg>=8){
-        document.getElementById("output3").innerHTML = "Học lực: Giỏi"
+        document.getElementById("output3").innerHTML = "Xếp loại học lực: Giỏi"
     } else if(avg>=6){
-        document.getElementById("output3").innerHTML = "Học lực: Khá"
+        document.getElementById("output3").innerHTML = "Xếp loại học lực: Khá"
     } else if(avg>=5){
-        document.getElementById("output3").innerHTML = "Học lực: Trung bình"
+        document.getElementById("output3").innerHTML = "Xếp loại học lực: Trung bình"
     } else if(avg<5){
-        document.getElementById("output3").innerHTML = "Học lực: yếu"
+        document.getElementById("output3").innerHTML = "Xếp loại học lực: yếu"
     }
 }
 function add() {

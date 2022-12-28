@@ -4,22 +4,28 @@ td {
 button {
     background-color: darkgray;
 }
+#mngpoint {
+    width: 80%;
+    height: 25px;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    background-color: #d0cfcf;
+    margin-top: 75px;
+    position: fixed;
+}
 #addinfor {
     width: 80%;
     float: right;
     background-color: powderblue;
-    margin-top: 150px;
+    margin-top: 120px;
+
 }
 #note {
     text-align: left;
 }
 #input {
     text-align: left;
-}
-#table {
-    width: 100%;
-    border-spacing: 15px;
-    background-color: #eefff4;
 }
 #table1 {
     border: 1px;
@@ -39,13 +45,13 @@ button {
 }
 #output1 {
     text-align: left;
-    background-color: aquamarine;
+    background-color: powderblue;
 }
 #output2 {
     text-align: left;
-    background-color: aquamarine;
+    background-color: powderblue;
 }
 #output3 {
     text-align: left;
-    background-color: aquamarine;
+    background-color: powderblue;
 }
