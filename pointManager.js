@@ -1,6 +1,7 @@
 let pointArr = [new Point("Giải tích", 2, 10, 8, 8, 8.4),
     new Point("Điện quang", 3, 7, 8, 6, 6.6),
-    new Point("Cơ sở văn hóa Việt Nam", 3, 10, 7, 8, 8.2)];
+    new Point("Cơ sở văn hóa Việt Nam", 3, 10, 7, 8, 8.2),
+    new Point("Hệ thống động vật học có xương sống", 3, 8, 9, 8.5, 8.5)];
 
 function showPoint() {
     let str = "";
@@ -17,7 +18,7 @@ function showPoint() {
             + "<td width=10%>" + pointArr[i].midterm + "</td>"
             + "<td width=10%>" + pointArr[i].endterm + "</td>"
             + "<td width=13%>" + pointArr[i].avg1 + "</td>"
-            + "<td width=13%>"+" <button onclick='edit(" + i + ")'>Sửa</button>"
+            + "<td width=8%>"+" <button onclick='edit(" + i + ")'>Sửa</button>"
             + "<button onclick='del(" + i + ")'>Xóa</button>"+ "</td>"+"</tr>"
         sumcredits += +pointArr[i].numcredits
         sum += pointArr[i].avg1*pointArr[i].numcredits;

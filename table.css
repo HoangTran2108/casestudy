@@ -5,11 +5,21 @@ button {
     background-color: darkgray;
 }
 #mngpoint {
-    width: 80%;
+    width: 81%;
     height: 25px;
     right: 0;
     text-align: center;
     font-size: 15px;
+    background-color: #d0cfcf;
+    margin-top: 75px;
+    position: fixed;
+}
+#sidebar{
+    border: 1px;
+    border-spacing: 1px;
+    width: 19%;
+    height: 330px;
+    left: 0;
     background-color: #d0cfcf;
     margin-top: 75px;
     position: fixed;
