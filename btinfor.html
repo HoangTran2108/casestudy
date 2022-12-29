@@ -6,6 +6,15 @@
   <link rel="stylesheet" href="table.css"/>
   <link rel="stylesheet" href="head.css"/>
   <link rel="stylesheet" href="footer.css"/>
+  <style>
+    #btinfor {
+      width: 50%;
+      float: right;
+      margin-right: 18%;
+      background-color: powderblue;
+      margin-top: 120px;
+    }
+  </style>
 </head>
 <body>
 <div id="header">
@@ -72,26 +81,88 @@
 
 <table id="sidebar" border="1">
   <tr>
-    <td><input type="button" value="Thông tin cá nhân" onclick="btinfor()"></td>
+    <td onclick="btinfor()" style="text-align: left; font-size: 16px">. Thông tin cá nhân</td>
   </tr>
   <tr>
-    <td><input type="button" value="Quản lý điểm học tập" onclick="btMngPoint()"></td>
+    <td onclick="btMngPoint()" style="text-align: left; font-size: 16px">. Quản lý điểm học tập</td>
   </tr>
   <tr>
-    <td><input type="button" value="Danh mục tài liệu" onclick="listDocument()"></td>
+    <td onclick="listDocument()" style="text-align: left; font-size: 16px">. Danh mục tài liệu</td>
   </tr>
   <tr>
-    <td><input type="button" value="Thông báo" onclick="btnotify()"></td>
+    <td onclick="btnotify()" style="text-align: left; font-size: 16px">. Thông báo</td>
   </tr>
   <tr>
-    <td><input type="button" value="Lịch thi" onclick="cateTest()"></td>
+    <td onclick="cateTest()" style="text-align: left; font-size: 16px">. Lịch thi</td>
   </tr>
   <tr>
-    <td><input type="button" value="Khai báo tiêm phòng COVID" onclick="covid()"></td>
+    <td onclick="covid()" style="text-align: left; font-size: 16px">. Khai báo tiêm phòng COVID</td>
   </tr>
 </table>
 
-
+<table id="btinfor">
+  <tr>
+    <td style="text-align: center" rowspan="8" >
+      <img src="https://anhdep123.com/wp-content/uploads/2020/11/avatar-facebook-mac-dinh-nam.jpeg" height="300">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Họ và tên:
+    </td>
+    <td>
+      <input type="text" value="Trần Vũ Hoàng" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Ngày sinh:
+    </td>
+    <td>
+      <input type="text" value="21/08/1997" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Địa chỉ:
+    </td>
+    <td>
+      <input type="text" value="Cầu Giấy - Hà Nội" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Quê quán:
+    </td>
+    <td>
+      <input type="text" value="Giao Thuỷ - Nam Định" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Chuyên ngành:
+    </td>
+    <td>
+      <input type="text" value="Công nghệ sinh học" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Email:
+    </td>
+    <td>
+      <input type="text" value="hoanggh2108@gmail.com" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+  <tr>
+    <td style="font-size: 16px; text-align: left">
+      Điện thoại:
+    </td>
+    <td>
+      <input type="text" value="+84975200919" style="text-align: left; font-size: 16px">
+    </td>
+  </tr>
+</table>
 
 <div>
   <footer id="footerright">

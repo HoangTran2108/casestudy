@@ -1,7 +1,9 @@
 let pointArr = [new Point("Giải tích", 2, 10, 8, 8, 8.4, "A"),
     new Point("Điện quang", 3, 7, 8, 6, 6.6, "B"),
     new Point("Cơ sở văn hóa Việt Nam", 3, 10, 7, 8, 8.2, "A"),
-    new Point("Hệ thống động vật học có xương sống", 3, 8, 9, 8.5, 8.5, "A")];
+    new Point("Hệ thống động vật học có xương sống", 3, 8, 9, 8.5, 8.5, "A"),
+    new Point("Hoá sinh", 2, 7.5, 6, 6, 6.3, "C+"),
+    new Point("Di truyền học", 2, 8, 7, 7.5, 7.5, "B+")];
 
 function showPoint() {
     let listpoint = "";
