@@ -4,7 +4,7 @@ let pointArr = [new Point("Giải tích", 2, 10, 8, 8, 8.4, "A"),
     new Point("Hệ thống động vật học có xương sống", 3, 8, 9, 8.5, 8.5, "A")];
 
 function showPoint() {
-    let str = "";
+    let listpoint = "";
     let sum = 0;
     let sumcredits = 0;
     let avg = 0;
@@ -18,7 +18,7 @@ function showPoint() {
         if(pointArr[i].numcredits>0 && pointArr[i].avg1<4){
             count++
         }
-        str += table +"<tr bgcolor='#98fb98'>" + "<td width=5%>"+ Number(i+1) + "</td>"
+        listpoint += table +"<tr bgcolor='#98fb98'>" + "<td width=5%>"+ Number(i+1) + "</td>"
             + "<td id='name1'>" + pointArr[i].name + "</td>"
             + "<td width=10%>" + pointArr[i].numcredits + "</td>"
             + "<td width=10%>" + pointArr[i].test + "</td>"
@@ -33,7 +33,7 @@ function showPoint() {
         avg = sum/sumcredits;
         document.getElementById("output4").innerHTML = "Có: " + count + " môn phải học lại"
     }
-    document.getElementById("output").innerHTML = str;
+    document.getElementById("output").innerHTML = listpoint;
     document.getElementById("output1").innerHTML = "Số tín chỉ đã học: " + Number(sumcredits) + "/124";
     document.getElementById("output2").innerHTML="Trung bình chung: " +avg.toFixed(2);
     if (sumcredits<=0) {

@@ -13,11 +13,57 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #47a64d;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgb(26, 72, 29);
 }
 .logincontainer h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     text-align: center;
+}
+.logincontainer form {
+    display: flex;
+    flex-direction: column;
+}
+.logincontainer form label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.logincontainer form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.logincontainer form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1a481d;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.logincontainer form button:hover {
+    background: #ddf1df;
+}
+.logincontainer form a {
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #47a64d;
+}
+.logincontainer form a:hover {
+    color: #47a64d;
+}
+.loginregisterButton {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #1a481d;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
 }

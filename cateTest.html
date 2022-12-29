@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="table.css"/>
+    <link rel="stylesheet" href="head.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+    <style>
+        #cateTest {
+            width: 80%;
+            float: right;
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <header id="head1">
+        <div class="logo">
+            <img src="http://dangkyhoc.daotao.vnu.edu.vn/Images/logo.png" height="78" alt="logo vnu" />
+        </div>
+    </header>
+    <header id="head2">
+        <div class="header-title">
+            <h1>CỔNG THÔNG TIN ĐÀO TẠO</h1>
+            <h3>DÀNH CHO SINH VIÊN</h3>
+        </div>
+    </header>
+    <header id="head3">
+        <div>
+            <br>
+            <div>
+                Xin chào bạn: <b>Trần Vũ Hoàng</b> [18001818]
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Chọn học kỳ:
+                        <select name="cboTerm" style="background-color:#47a64d;padding:0 5px;width:260px">
+                            <option value="221"  selected>
+                                Mã HK 221 - Học kỳ 1 năm 2022-2023
+                            </option>
+                            <option value="212" >
+                                Mã HK 212 - Học kỳ 2 năm 2021-2022
+                            </option>
+                            <option value="211" >
+                                Mã HK 211 - Học kỳ 1 năm 2021-2022
+                            </option>
+                            <option value="202" >
+                                Mã HK 202 - Học kỳ 2 năm 2020-2021
+                            </option>
+                            <option value="201" >
+                                Mã HK 201 - Học kỳ 1 năm 2020-2021
+                            </option>
+                            <option value="192" >
+                                Mã HK 192 - Học kỳ 2 năm 2019-2020
+                            </option>
+                            <option value="191" >
+                                Mã HK 191 - Học kỳ 1 năm 2019-2020
+                            </option>
+                            <option value="182" >
+                                Mã HK 182 - Học kỳ 2 năm 2018-2019
+                            </option>
+                            <option value="181" >
+                                Mã HK 181 - Học kỳ 1 năm 2018-2019
+                            </option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div id="mngpoint">
+    <marquee>Chào mừng bạn đến với cổng thông tin đào tạo dành cho sinh viên Đại học Quốc gia Hà Nội</marquee>
+</div>
+
+<table id="sidebar" border="1">
+    <tr>
+        <td><input type="button" value="Thông tin cá nhân" onclick="btinfor()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Quản lý điểm học tập" onclick="btMngPoint()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Danh mục tài liệu" onclick="listDocument()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Thông báo" onclick="btnotify()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Lịch thi" onclick="cateTest()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Khai báo tiêm phòng COVID" onclick="covid()"></td>
+    </tr>
+</table>
+
+<table id="cateTest">
+    <tr>
+        <td style="text-align: left">
+            <h1>Lịch thi của bạn được cập nhật thông qua tài khoản email:</h1>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><h3>đi đến email</h3></a>
+        </td>
+    </tr>
+</table>
+
+<div>
+    <footer id="footerright">
+        Công thông tin đào tạo ĐHQG Hà Nội - Trang cá nhân: Trần Vũ Hoàng
+        <br />
+        144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam
+        <br />
+        Email: hoanggh2108@gmail.com
+        <br />
+    </footer>
+    <footer id="footerleft">
+        <img src="https://dongphucgiadinh.com/wp-content/uploads/2022/09/logo-dai-hoc-quoc-gia-ha-noi.jpg" height="50" alt="logo vnu" />
+    </footer>
+</div>
+
+</body>
+
+<script src="point.js"></script>
+<script src="pointManager.js"></script>
+<script>
+    function btMngPoint() {
+        window.location.href = "casestudy.html"
+    }
+</script>
+<script>
+    function btinfor() {
+        window.location.href = "btinfor.html"
+    }
+</script>
+<script>
+    function listDocument() {
+        window.location.href = "listDocument.html"
+    }
+</script>
+<script>
+    function btnotify() {
+        window.location.href = "btnotify.html"
+    }
+</script>
+<script>
+    function cateTest() {
+        window.location.href = "cateTest.html"
+    }
+</script>
+<script>
+    function covid() {
+        window.location.href = "covid.html"
+    }
+</script>

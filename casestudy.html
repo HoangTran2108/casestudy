@@ -17,9 +17,7 @@
     <header id="head2">
       <div class="header-title">
         <h1>CỔNG THÔNG TIN ĐÀO TẠO</h1>
-        <h3>DÀNH CHO
-          <span>SINH VIÊN</span>
-        </h3>
+        <h3>DÀNH CHO SINH VIÊN</h3>
       </div>
     </header>
     <header id="head3">
@@ -69,27 +67,27 @@
   </div>
 
   <div id="mngpoint">
-      Quản lý điểm học tập
+    <marquee>Chào mừng bạn đến với cổng thông tin đào tạo dành cho sinh viên Đại học Quốc gia Hà Nội</marquee>
   </div>
 
   <table id="sidebar" border="1">
     <tr>
-      <td>Thông tin cá nhân</td>
+      <td><input type="button" value="Thông tin cá nhân" onclick="btinfor()"></td>
     </tr>
     <tr>
-      <td>Quản lý điểm học tập</td>
+      <td><input type="button" value="Quản lý điểm học tập" onclick="btMngPoint()"></td>
     </tr>
     <tr>
-      <td>Danh mục tài liệu</td>
+      <td><input type="button" value="Danh mục tài liệu" onclick="listDocument()"></td>
     </tr>
     <tr>
-      <td>Thông báo</td>
+      <td><input type="button" value="Thông báo" onclick="btnotify()"></td>
     </tr>
     <tr>
-      <td>Danh mục tài liệu</td>
+      <td><input type="button" value="Lịch thi" onclick="cateTest()"></td>
     </tr>
     <tr>
-      <td>lịch thi</td>
+      <td><input type="button" value="Khai báo tiêm phòng COVID" onclick="covid()"></td>
     </tr>
   </table>
 
@@ -118,7 +116,6 @@
   </tr>
  </table>
 
-
  <table id="table1">
   <tr bgcolor="#228b22">
     <td rowspan=2><b>STT</b></td>
@@ -140,15 +137,15 @@
   <tr><td colspan="9" id="output3"></td></tr>
   <tr><td colspan="9" id="output4"></td></tr>
  </table>
-
+  
  <div>
   <footer id="footerright">
     Công thông tin đào tạo ĐHQG Hà Nội - Trang cá nhân: Trần Vũ Hoàng
-    <br />
+    <br>
     144 đường Xuân Thủy, Quận Cầu Giấy, Hà Nội, Việt Nam
-    <br />
+    <br>
     Email: hoanggh2108@gmail.com
-    <br />
+    <br>
   </footer>
   <footer id="footerleft">
     <img src="https://dongphucgiadinh.com/wp-content/uploads/2022/09/logo-dai-hoc-quoc-gia-ha-noi.jpg" height="50" alt="logo vnu" />
@@ -159,3 +156,33 @@
 
 <script src="point.js"></script>
 <script src="pointManager.js"></script>
+<script>
+  function btMngPoint() {
+    window.location.href = "casestudy.html"
+  }
+</script>
+<script>
+  function btinfor() {
+    window.location.href = "btinfor.html"
+  }
+</script>
+<script>
+  function listDocument() {
+    window.location.href = "listDocument.html"
+  }
+</script>
+<script>
+  function btnotify() {
+    window.location.href = "btnotify.html"
+  }
+</script>
+<script>
+  function cateTest() {
+    window.location.href = "cateTest.html"
+  }
+</script>
+<script>
+  function covid() {
+    window.location.href = "covid.html"
+  }
+</script>
