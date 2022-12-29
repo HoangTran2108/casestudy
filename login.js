@@ -6,7 +6,6 @@ function addlogin() {
         alert("Vui lòng không để trống");
     } else {
         if (inputUsername === "123456" && inputPassword === "123456") {
-            alert("Đăng Nhập Thành Công");
             window.location.href = "casestudy.html";
         } else {
             alert("Tên tài khoản / Mật khẩu không chính xác");

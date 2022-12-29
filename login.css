@@ -7,20 +7,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("https://fs.mapstore.vn/places/thanh-pho-ha-noi/quan-hoan-kiem/phuong-phan-chu-trinh/truong-dai-hoc-tong-hop-ha-noi-19-le-thanh-tong-phuong-phan-chu-trinh-quan-hoan-kiem-thanh-pho-ha-noi-1638022391531000/c7a0c7067fc28b7fe04e7c5cfc329fb5.Dai-hoc-tong-hop-ha-noi.jpg?w=1920&q=85");
+    background-image: url("https://www.vnu.edu.vn/upload/2014/05/16345/image/19Lethanhtong_by_buituan_1.JPG");
 }
 .logincontainer {
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    background-color: #47a64d;
+    background-color: #ffffff;
     border-radius: 5px;
 }
 .logincontainer h1 {
     margin-bottom: 20px;
     font-size: 2rem;
     text-align: center;
-}
-#buttonlogin {
-    background-color: #96dac8;
 }
