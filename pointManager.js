@@ -14,8 +14,10 @@ function showPoint() {
     let table;
     table="<table id='table2' >"
     for (let i = 0; i < pointArr.length; i++) {
-        if(pointArr[i].numcredits=='' || pointArr[i].test=='' || pointArr[i].midterm=='' || pointArr[i].endterm=='') {
-            pointArr[i]=''
+        if(pointArr[i].name=='' || pointArr[i].numcredits=='' || pointArr[i].test=='' || pointArr[i].midterm=='' || pointArr[i].endterm=='') {
+            pointArr[i].avg1=''
+            pointArr[i].rating=''
+            pointArr[i].numcredits=''
         }
         if(pointArr[i].numcredits>0 && pointArr[i].avg1<4){
             count++
