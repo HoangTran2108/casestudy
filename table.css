@@ -34,9 +34,7 @@ button {
 #note {
     text-align: left;
 }
-#input {
-    text-align: left;
-}
+
 #table1 {
     border: 1px;
     width: 80%;
@@ -68,4 +66,10 @@ button {
 #output4 {
     text-align: left;
     background-color: powderblue;
+}
+#sidebar tr td {
+    cursor: pointer;
+}
+#sidebar tr td:hover {
+    color: brown;
 }

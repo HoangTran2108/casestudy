@@ -72,22 +72,22 @@
 
   <table id="sidebar" border="1">
     <tr>
-      <td onclick="btinfor()" style="text-align: left; font-size: 16px">. Thông tin cá nhân</td>
+      <td onclick="btinfor()" style="text-align: left; font-size: 16px"> > Thông tin cá nhân</td>
     </tr>
     <tr>
-      <td onclick="btMngPoint()" style="text-align: left; font-size: 16px">. Quản lý điểm học tập</td>
+      <td onclick="btMngPoint()" style="text-align: left; font-size: 16px"> > Quản lý điểm học tập</td>
     </tr>
     <tr>
-      <td onclick="listDocument()" style="text-align: left; font-size: 16px">. Danh mục tài liệu</td>
+      <td onclick="listDocument()" style="text-align: left; font-size: 16px"> > Danh mục tài liệu</td>
     </tr>
     <tr>
-      <td onclick="btnotify()" style="text-align: left; font-size: 16px">. Thông báo</td>
+      <td onclick="btnotify()" style="text-align: left; font-size: 16px"> > Thông báo</td>
     </tr>
     <tr>
-      <td onclick="cateTest()" style="text-align: left; font-size: 16px">. Lịch thi</td>
+      <td onclick="cateTest()" style="text-align: left; font-size: 16px"> > Lịch thi</td>
     </tr>
     <tr>
-      <td onclick="covid()" style="text-align: left; font-size: 16px">. Khai báo tiêm phòng COVID</td>
+      <td onclick="covid()" style="text-align: left; font-size: 16px"> > Khai báo tiêm phòng COVID</td>
     </tr>
   </table>
 
@@ -104,8 +104,14 @@
       <p>- Xếp loại học lực dựa trên điểm trung bình chung.</p>
     </td>
   </tr>
+   <tr></tr>
+   <tr>
+     <td>
+       <b>Sinh viên nhập dữ liệu vào các ô tương ứng bên dưới để tổng hợp kết quả môn học, hoặc có thể dùng để lập kế hoạch</b>
+     </td>
+   </tr>
   <tr>
-    <td id="input">
+    <td style="text-align: center; background-color: #21536a">
       <label><input type="text" id="name" placeholder="Nhập tên môn"></label>
       <label><input type="text" id="numcredits" placeholder="số tín chỉ"></label>
       <label><input type="text" id="test" placeholder="Kiểm tra"></label>
@@ -114,6 +120,7 @@
       <button onclick="add()">Thêm vào</button>
     </td>
   </tr>
+  <tr></tr>
  </table>
 
  <table id="table1">

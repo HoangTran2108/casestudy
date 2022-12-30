@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="table.css"/>
     <link rel="stylesheet" href="head.css"/>
     <link rel="stylesheet" href="footer.css"/>
+    <style>
+        #listdoc {
+            width: 70%;
+            float: right;
+            margin-right: 5%;
+            margin-top: 120px;
+            background-color: powderblue;
+            margin-bottom: 80px;
+        }
+    </style>
 </head>
 <body>
 <div id="header">
@@ -70,28 +80,106 @@
     <marquee>Chào mừng bạn đến với cổng thông tin đào tạo dành cho sinh viên Đại học Quốc gia Hà Nội</marquee>
 </div>
 
-<table id="sidebar" border="1">
+<table id="sidebar">
     <tr>
-        <td onclick="btinfor()" style="text-align: left; font-size: 16px">. Thông tin cá nhân</td>
+        <td onclick="btinfor()" style="text-align: left; font-size: 16px"> > Thông tin cá nhân</td>
     </tr>
     <tr>
-        <td onclick="btMngPoint()" style="text-align: left; font-size: 16px">. Quản lý điểm học tập</td>
+        <td onclick="btMngPoint()" style="text-align: left; font-size: 16px"> > Quản lý điểm học tập</td>
     </tr>
     <tr>
-        <td onclick="listDocument()" style="text-align: left; font-size: 16px">. Danh mục tài liệu</td>
+        <td onclick="listDocument()" style="text-align: left; font-size: 16px"> > Danh mục tài liệu</td>
     </tr>
     <tr>
-        <td onclick="btnotify()" style="text-align: left; font-size: 16px">. Thông báo</td>
+        <td onclick="btnotify()" style="text-align: left; font-size: 16px"> > Thông báo</td>
     </tr>
     <tr>
-        <td onclick="cateTest()" style="text-align: left; font-size: 16px">. Lịch thi</td>
+        <td onclick="cateTest()" style="text-align: left; font-size: 16px"> > Lịch thi</td>
     </tr>
     <tr>
-        <td onclick="covid()" style="text-align: left; font-size: 16px">. Khai báo tiêm phòng COVID</td>
+        <td onclick="covid()" style="text-align: left; font-size: 16px"> > Khai báo tiêm phòng COVID</td>
     </tr>
 </table>
 
+<table id="listdoc" border="1">
+    <tr>
+        <td colspan="5" style="font-size: 16px"><b>Các môn tư tưởng</b></td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.thuvienpdf.com/rlqEQ0.webp" height="230"><br>
+            Tư tưởng Hồ Chí Minh
+        </td>
+        <td>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlCWAWlcPZpRIkFj2KQ6fYa2X3vMCw0PEGfQ&usqp=CAU" height="230"><br>
+            Triết I
+        </td>
+        <td>
+            <img src="https://newshop.vn/public/uploads/products/15375/giao-trinh-nhung-nguyen-ly-co-ban-cua-chu-nghia-mac-lenin.jpg" height="230"><br>
+            Triết II
+        </td>
+        <td>
+            <img src="https://vn-test-11.slatic.net/p/522223debcb280ac9b50382388cb4206.jpg" height="230"><br>
+            Đường lối
+        </td>
+        <td>
+            <img src="https://tailieuvnu.com/wp-content/uploads/2021/10/11/Co-so-van-hoa-Viet-Nam-Tran-Ngoc-Them-Giao-duc-1999.png" height="230"><br>
+            Cơ sở văn hoá VN
+        </td>
+    <tr>
+        <td colspan="5" style="font-size: 16px"><b>Các môn toán</b></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://vietbooks.info/attachments/upload_2022-8-23_14-18-25-png.14034/" height="230"><br>
+            Giải tích I
+        </td>
+        <td>
+            <img src="https://www.lib.hcmut.edu.vn/uploads/noidung/giao-trinh-giai-tich-2-0-367.jpg" height="230"><br>
+            Giải tích II
+        </td>
+        <td>
+            <img src="https://images.nxbxaydung.com.vn/Picture/2020/biasach-0626091817.jpg" height="230"><br>
+            Đại số tuyến tính
+        </td>
+        <td>
+            <img src="https://www.lib.hcmut.edu.vn/uploads/noidung/xac-suat-thong-ke-0-584.jpg" height="230"><br>
+            Xác suất thống kê
+        </td>
+        <td>
+            <img src="https://tailieuvnu.com/wp-content/uploads/2020/10/24/Tai-lieu-Huong-dan-giai-bai-tap-Xac-suat-Thong-ke-Hoang-Van-Trong.png" height="230"><br>
+            Hướng dẫn giải bài tập
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5" style="font-size: 16px"><b>Các môn Chuyên ngành</b></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>
+            <img src="http://nhaxuatban.vinhuni.edu.vn/data/55/upload/539/images//2016/06/dvcxs.jpg" height="230"><br>
+            Động vật học có xương sống
+        </td>
+        <td>
+            <img src="https://vietbooks.info/attachments/upload_2022-9-4_17-7-3-png.14577/" height="230"><br>
+            Động vật học không xương
+        </td>
+        <td>
+            <img src="https://vietbooks.info/attachments/upload_2022-7-21_17-58-19-png.12821/" height="230"><br>
+            Thực vật học
+        </td>
+        <td>
+            <img src="https://www.davibooks.vn/stores/uploads/u/b4__17599_big.jpg" height="230"><br>
+            Di truyền học
+        </td>
+        <td>
+            <img src="https://tailieuvnu.com/wp-content/uploads/2020/10/24/Tai-lieu-Huong-dan-giai-bai-tap-Xac-suat-Thong-ke-Hoang-Van-Trong.png" height="230"><br>
+            Hướng dẫn giải bài tập
+        </td>
+    </tr>
 
+</table>
 
 <div>
     <footer id="footerright">
